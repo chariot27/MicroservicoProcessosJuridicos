@@ -1,6 +1,6 @@
 <h2>1 - Introdução</h2>
 
-Este microserviço foi desenvolvido no intuito de gerenciar processos juridicos.
+Este microserviço foi desenvolvido no intuito de gerenciar processos juridicos utilizando o procolo **REST**.
 
 A tarefa era:
 <br>
