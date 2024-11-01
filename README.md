@@ -15,6 +15,7 @@ cadastrado anteriormente.
 4. Como usuário quero poder excluir um número de processo que salvei.
 5. Como usuário quero poder adicionar um Réu a um processo que já cadastrei
 anteriormente.
+
 São pontos adicionais
 - Utilizar JUNIT para teste do endpoint de ponta a ponta
 - Liquibase na geração da estrutura de dados
