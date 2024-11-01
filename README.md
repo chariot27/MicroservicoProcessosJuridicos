@@ -58,7 +58,8 @@ Método HTTP: **POST**<br>
 URL do Endpoint: **/api/processos/{processo_id}/reus**.<br>
 Descrição: adiciona ao banco um registro de reu e tem a opção de atrelar um reu a processo juridico existente
 
-![salvarPostRel](https://github.com/user-attachments/assets/50e10287-709c-4427-9c78-54ccbd838298)
+![salv](https://github.com/user-attachments/assets/0c98fe20-4c6a-48e1-bfc2-0b64049f8a81)
+
 
 Método HTTP: **DELETE**<br>
 URL do Endpoint: **/api/processos/{processo_id}**.<br>
