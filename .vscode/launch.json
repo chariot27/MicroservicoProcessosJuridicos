@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroservicoProcessosJuridicosApplication<MicroservicoProcessosJuridicos>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.max.MicroservicoProcessosJuridicos.MicroservicoProcessosJuridicosApplication",
+            "projectName": "MicroservicoProcessosJuridicos",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
