@@ -1,6 +1,7 @@
 package com.max.MicroservicoProcessosJuridicos.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonInclude;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -12,6 +13,7 @@ import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 
 @Entity
+@JsonInclude(JsonInclude.Include.NON_NULL)
 @Table(name = "reus")
 public class Reu {
 
