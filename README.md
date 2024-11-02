@@ -39,20 +39,19 @@ Descrição: lista todos os processos juridicos e se em um processo tiver um reu
 ![salvarGet](https://github.com/user-attachments/assets/b2dbda38-715c-4cdc-89ce-83aae5e3c9d6)
 ![salvarGet2](https://github.com/user-attachments/assets/b2ef0bad-6a66-4456-908f-f453d4b1f67b)
 
-Respostas:
-
-**201 Created**<br>
-**409 Conflict** - quando já existe um registro de processo juridico com o mesmo número de processo.
-
-![conflito](https://github.com/user-attachments/assets/2232b90f-5e30-4149-bb3d-2705d451a36e)
-
-
 Método HTTP: **POST**<br>
 URL do Endpoint: **/api/processos**.<br>
 Descrição: adiciona ao banco um registro de processo e tem a opção de atrelar reus na criação do registro de processo.
 
 ![svp](https://github.com/user-attachments/assets/3958ec8c-8bfe-4377-a5f3-3149ec99e635)
 ![salvarPost2](https://github.com/user-attachments/assets/3bceaafd-1235-49d4-9372-d6270e75e5cd)
+
+Respostas:
+
+**201 Created**<br>
+**409 Conflict** - quando já existe um registro de processo juridico com o mesmo número de processo.
+
+![conflito](https://github.com/user-attachments/assets/2232b90f-5e30-4149-bb3d-2705d451a36e)
 
 Método HTTP: **POST**<br>
 URL do Endpoint: **/api/processos/{processo_id}/reus**.<br>
